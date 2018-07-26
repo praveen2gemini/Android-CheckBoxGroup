@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:group="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin_vertical"
+    tools:context=".MainActivity">
+
+    <com.github.praveen2gemini.CheckBoxGroup
+        android:id="@+id/check_group_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin_vertical"
+        android:orientation="vertical"
+        group:checkGroupChildInnerMargin="@dimen/margin_inner_child"
+        group:checkGroupHeaderMaxLines="1"
+        group:checkGroupHeaderTextAppearance="?android:attr/textAppearanceLarge"
+        group:checkGroupHeaderTextColor="@android:color/holo_red_dark"
+        group:checkGroupHeaderTitle="@string/check_group_title"
+        group:isCheckGroupHeaderEnabled="true">
+
+        <CheckBox
+            android:id="@+id/check_nexus_id"
+            style="@style/CheckBoxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nexus" />
+
+        <CheckBox
+            android:id="@+id/check_iphone_id"
+            style="@style/CheckBoxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iPhone" />
+
+        <CheckBox
+            android:id="@+id/check_blackberry_id"
+            style="@style/CheckBoxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blackberry" />
+
+        <CheckBox
+            android:id="@+id/check_htc_id"
+            style="@style/CheckBoxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HTC" />
+
+        <CheckBox
+            android:id="@+id/check_sony_id"
+            style="@style/CheckBoxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sony" />
+    </com.github.praveen2gemini.CheckBoxGroup>
+
+</LinearLayout>

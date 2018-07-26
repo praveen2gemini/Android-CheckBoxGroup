@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CheckBoxGroupExample</string>
+    <string name="check_group_title">Select anyone type:</string>
+</resources>
