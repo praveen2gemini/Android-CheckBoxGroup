@@ -118,7 +118,11 @@ override fun onCheckedChanged(group: CheckBoxGroup, checkedId: Int, isChecked: B
 ```
 
 
-![Output](screenshot/output.png) 
+![Nothing Checked:](screenshot/nothing_selected.png) 
+
+![Checked All:](screenshot/selected_all.png) 
+
+![indeterminate selections:](screenshot/indeterminate_selection.png) 
 
 
 ![Log information](screenshot/loginfo.png)
